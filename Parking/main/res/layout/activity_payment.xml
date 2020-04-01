@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grad2"
+    tools:context=".Payment">
+
+    <TextView
+        android:id="@+id/textviewTime"
+        android:text="0 seconds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="#FF0F00"
+        android:layout_margin="20dp"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/textviewAmount"
+        android:text="Rs. 0.0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="#FF0F00"
+        android:layout_margin="20dp"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/textviewMessage"
+        android:text="No pending payments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/buttonPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_style"
+        android:backgroundTint="#a7ffeb"
+        android:text="Main Menu" />
+
+    <Button
+        android:id="@+id/buttonPaymentLater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_style"
+        android:backgroundTint="#a7ffeb"
+        android:text="Pay Next Time"/>
+
+
+</LinearLayout>

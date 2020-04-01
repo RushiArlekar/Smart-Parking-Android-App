@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grad2"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/profile_button"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginEnd="220dp"
+            android:background="@drawable/profile"
+            android:backgroundTint="#fafafa"
+            android:gravity="bottom|center"
+            android:text="View Profile"
+            android:textColor="@color/browser_actions_text_color" />
+
+        <Button
+            android:id="@+id/free_space_button"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignRight="@+id/profile_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginEnd="38dp"
+            android:layout_marginRight="-182dp"
+            android:background="@drawable/search"
+            android:backgroundTint="#fafafa"
+            android:gravity="bottom|center"
+            android:text="Available Parking Space"
+            android:textColor="@color/browser_actions_text_color" />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="316dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="206dp"
+            android:layout_marginTop="334dp"
+            android:background="#ffffff" />
+
+        <View
+            android:layout_width="337dp"
+            android:layout_height="5dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="493dp"
+            android:layout_marginEnd="36dp"
+            android:background="#ffffff" />
+
+        <Button
+            android:id="@+id/payment_button"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="468dp"
+            android:layout_marginEnd="220dp"
+            android:layout_marginBottom="-2dp"
+            android:background="@drawable/payment"
+            android:backgroundTint="#fafafa"
+            android:gravity="bottom|center"
+            android:text="Payment"
+            android:textColor="@color/browser_actions_text_color" />
+
+
+        <Button
+            android:id="@+id/logout_button"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignTop="@+id/profile_button"
+            android:layout_alignRight="@+id/payment_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="175dp"
+            android:layout_marginEnd="38dp"
+            android:layout_marginRight="182dp"
+            android:layout_marginBottom="-2dp"
+            android:background="@drawable/logout"
+            android:backgroundTint="#fafafa"
+            android:gravity="bottom|center"
+            android:text="Log out"
+            android:textColor="@color/browser_actions_text_color" />
+
+        <TextView
+            android:id="@+id/textviewVerified"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginEnd="54dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorRed"
+            android:textSize="8dp"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="372dp"
+            android:layout_height="266dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="15dp"
+            android:scaleType="center"
+            android:src="@drawable/preview" />
+
+    </RelativeLayout>
+
+</ScrollView>

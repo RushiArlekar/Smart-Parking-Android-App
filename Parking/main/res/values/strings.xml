@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Parking</string>
+    <string name="user_details">User Details</string>
+    <string name="address">Address:</string>
+    <string name="vehicle_details">Vehicle Details</string>
+    <string name="car_name">Car Name</string>
+    <string name="registration">Registration</string>
+</resources>
